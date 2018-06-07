@@ -25,7 +25,9 @@ app.layout=html.Div([
 
 ])
 
-app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
+
+app.css.append_css({"external_url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"})
 
 if __name__=='__main__':
+
     app.run_server(debug=True)
